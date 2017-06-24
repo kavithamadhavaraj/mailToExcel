@@ -1,3 +1,4 @@
+//This is the main method that exports mails to spreadsheets. You can configure a trigger to run this method at specific interval
 function getEmails() {
   var label = GmailApp.getUserLabelByName("My Label");
   var threads = label.getThreads();
